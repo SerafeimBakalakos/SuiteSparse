@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_1.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_2.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_aat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_control.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_defaults.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_dump.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_info.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_order.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_post_tree.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_postorder.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_preprocess.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_i_valid.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_1.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_2.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_aat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_control.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_defaults.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_dump.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_info.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_order.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_post_tree.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_postorder.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_preprocess.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\SourceWrappers\amd_l_valid.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include\amd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include\amd_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\AMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F8AF75DA-943C-3648-A5BD-9268F7570CAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B9C6253-0782-3D4B-9CBF-4C957E45F0A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

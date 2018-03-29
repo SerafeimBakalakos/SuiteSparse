@@ -1,0 +1,3 @@
+C:/Coding/VS/suitesparse/build/SuiteSparse/CCOLAMD/ccolamd.dir/Release/ccolamd.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/CCOLAMD/ccolamd.dir/Release/ccolamd_global.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/CCOLAMD/ccolamd.dir/Release/ccolamd_l.o.obj

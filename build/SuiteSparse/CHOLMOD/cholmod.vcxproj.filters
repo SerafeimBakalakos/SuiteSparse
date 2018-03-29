@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_aat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_add.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_amd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_analyze.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_band.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_camd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_ccolamd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_change_factor.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_check.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_colamd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_common.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_complex.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_copy.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_csymamd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_dense.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_drop.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_error.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_etree.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_factor.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_factorize.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_horzcat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_aat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_add.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_amd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_analyze.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_band.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_camd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_ccolamd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_change_factor.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_check.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_colamd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_common.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_complex.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_copy.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_csymamd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_dense.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_drop.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_error.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_etree.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_factor.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_factorize.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_horzcat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_memory.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_metis.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_nesdis.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_norm.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_postorder.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rcond.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_read.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_resymbol.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowadd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowcolcounts.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowdel.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowfac.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_scale.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_sdmult.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_solve.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_sparse.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_spsolve.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_ssmult.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_submatrix.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_super_numeric.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_super_solve.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_super_symbolic.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_symmetry.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_transpose.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_triplet.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_updown.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_vertcat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_write.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_memory.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_metis.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_nesdis.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_norm.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_postorder.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rcond.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_read.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_resymbol.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowadd.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowcolcounts.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowdel.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowfac.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_scale.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_sdmult.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_solve.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_sparse.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_spsolve.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_ssmult.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_submatrix.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_super_numeric.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_super_solve.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_super_symbolic.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_symmetry.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_transpose.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_triplet.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_updown.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_vertcat.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_write.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_blas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_camd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_cholesky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_complexity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_gpu_kernels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_io64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_matrixops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_modify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_supernodal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F8AF75DA-943C-3648-A5BD-9268F7570CAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B9C6253-0782-3D4B-9CBF-4C957E45F0A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,3 +1,4 @@
-build*
+build/x64*
+build/x32*
 install*
 *~

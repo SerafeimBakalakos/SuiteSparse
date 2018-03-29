@@ -1,0 +1,3 @@
+C:/Coding/VS/suitesparse/build/SuiteSparse/COLAMD/colamd.dir/Debug/colamd.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/COLAMD/colamd.dir/Debug/colamd_global.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/COLAMD/colamd.dir/Debug/colamd_l.o.obj

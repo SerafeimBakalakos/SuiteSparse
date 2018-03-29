@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E22C8E8E-B89E-36C6-934A-1A6715E0969E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>spqr</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Coding\VS\suitesparse\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spqr.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libspqrd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Coding\VS\suitesparse\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spqr.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libspqr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Coding\VS\suitesparse\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spqr.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libspqr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Coding\VS\suitesparse\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spqr.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libspqr</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Debug";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Debug\";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\libcholmodd.lib;..\..\lib\Debug\suitesparseconfigd.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\Debug\libcamdd.lib;..\..\lib\Debug\libccolamdd.lib;..\..\lib\Debug\libamdd.lib;..\..\lib\Debug\libcolamdd.lib;..\..\lib\Debug\suitesparseconfigd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/Debug/libspqrd.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/Debug/libspqrd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Release";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Release\";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\libcholmod.lib;..\..\lib\Release\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\Release\libcamd.lib;..\..\lib\Release\libccolamd.lib;..\..\lib\Release\libamd.lib;..\..\lib\Release\libcolamd.lib;..\..\lib\Release\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/Release/libspqr.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/Release/libspqr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="MinSizeRel";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"MinSizeRel\";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\libcholmod.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\MinSizeRel\libcamd.lib;..\..\lib\MinSizeRel\libccolamd.lib;..\..\lib\MinSizeRel\libamd.lib;..\..\lib\MinSizeRel\libcolamd.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/MinSizeRel/libspqr.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/MinSizeRel/libspqr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="RelWithDebInfo";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"RelWithDebInfo\";spqr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\libcholmod.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\RelWithDebInfo\libcamd.lib;..\..\lib\RelWithDebInfo\libccolamd.lib;..\..\lib\RelWithDebInfo\libamd.lib;..\..\lib\RelWithDebInfo\libcolamd.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/RelWithDebInfo/libspqr.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/spqr.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/RelWithDebInfo/libspqr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\SPQR\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\SPQR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_rmap.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_C.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_parallel.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_kernel.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_assemble.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_cpack.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_csize.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_fcsize.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_debug.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_front.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_factorize.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_freenum.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_freesym.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_freefac.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_fsize.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_maxcolnorm.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_rconvert.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_rcount.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_rhpack.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_rsolve.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_stranspose1.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_stranspose2.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_hpinv.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1fixed.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1factor.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_cumsum.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_shift.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_happly.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_panel.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_happly_work.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_qmult.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_trapezoidal.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_append.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_type.cpp" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_tol.cpp" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include\SuiteSparseQR.hpp" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include\SuiteSparseQR_C.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include\SuiteSparseQR_definitions.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include\spqr.hpp" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Include\spqrgpu.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\ZERO_CHECK.vcxproj">
+      <Project>{89DE42C2-C333-3483-A963-CC6906A19027}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\AMD\amd.vcxproj">
+      <Project>{BC318C94-A2B0-3AC7-A3E7-671E07511D48}</Project>
+      <Name>amd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CAMD\camd.vcxproj">
+      <Project>{57EA8976-F0CD-3FD1-8325-46721ED44FFC}</Project>
+      <Name>camd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CCOLAMD\ccolamd.vcxproj">
+      <Project>{A405B662-04ED-3F2C-984C-8A97ECED6D5F}</Project>
+      <Name>ccolamd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CHOLMOD\cholmod.vcxproj">
+      <Project>{F87D2117-BBB8-3C44-BB45-B4857C874BD9}</Project>
+      <Name>cholmod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\COLAMD\colamd.vcxproj">
+      <Project>{5DA853BE-3C3D-3600-A5C1-E85208107031}</Project>
+      <Name>colamd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\SuiteSparse_config\suitesparseconfig.vcxproj">
+      <Project>{889DC824-79A2-33BC-B3A7-19F8CA3F78B3}</Project>
+      <Name>suitesparseconfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

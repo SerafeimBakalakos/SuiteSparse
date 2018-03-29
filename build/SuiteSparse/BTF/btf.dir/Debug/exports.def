@@ -1,0 +1,7 @@
+EXPORTS 
+	btf_l_maxtrans
+	btf_l_order
+	btf_l_strongcomp
+	btf_maxtrans
+	btf_order
+	btf_strongcomp

@@ -1,0 +1,6 @@
+C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/btf.dir/RelWithDebInfo/btf_l_maxtrans.o.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/btf.dir/RelWithDebInfo/btf_l_order.o.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/btf.dir/RelWithDebInfo/btf_l_strongcomp.o.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/btf.dir/RelWithDebInfo/btf_maxtrans.o.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/btf.dir/RelWithDebInfo/btf_order.o.obj
+C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/btf.dir/RelWithDebInfo/btf_strongcomp.o.obj

@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F87D2117-BBB8-3C44-BB45-B4857C874BD9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cholmod</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Coding\VS\suitesparse\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cholmod.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libcholmodd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Coding\VS\suitesparse\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cholmod.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libcholmod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Coding\VS\suitesparse\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cholmod.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libcholmod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Coding\VS\suitesparse\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cholmod.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libcholmod</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Debug";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Debug\";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\libamdd.lib;..\..\lib\Debug\libcamdd.lib;..\..\lib\Debug\libcolamdd.lib;..\..\lib\Debug\libccolamdd.lib;..\..\lib\Debug\suitesparseconfigd.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/Debug/libcholmodd.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/Debug/libcholmodd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Release";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Release\";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\libamd.lib;..\..\lib\Release\libcamd.lib;..\..\lib\Release\libcolamd.lib;..\..\lib\Release\libccolamd.lib;..\..\lib\Release\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/Release/libcholmod.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/Release/libcholmod.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="MinSizeRel";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"MinSizeRel\";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\libamd.lib;..\..\lib\MinSizeRel\libcamd.lib;..\..\lib\MinSizeRel\libcolamd.lib;..\..\lib\MinSizeRel\libccolamd.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/MinSizeRel/libcholmod.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/MinSizeRel/libcholmod.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="RelWithDebInfo";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"RelWithDebInfo\";cholmod_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\libamd.lib;..\..\lib\RelWithDebInfo\libcamd.lib;..\..\lib\RelWithDebInfo\libcolamd.lib;..\..\lib\RelWithDebInfo\libccolamd.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/RelWithDebInfo/libcholmod.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/cholmod.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/RelWithDebInfo/libcholmod.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\CHOLMOD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_aat.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_add.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_amd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_analyze.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_band.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_camd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_ccolamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_change_factor.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_check.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_colamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_common.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_complex.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_copy.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_csymamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_dense.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_drop.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_error.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_etree.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_factor.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_factorize.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_horzcat.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_aat.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_add.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_amd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_analyze.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_band.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_camd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_ccolamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_change_factor.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_check.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_colamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_common.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_complex.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_copy.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_csymamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_dense.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_drop.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_error.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_etree.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_factor.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_factorize.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_horzcat.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_memory.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_metis.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_nesdis.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_norm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_postorder.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rcond.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_read.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_resymbol.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowadd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowcolcounts.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowdel.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_rowfac.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_sdmult.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_sparse.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_spsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_ssmult.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_submatrix.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_super_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_super_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_super_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_symmetry.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_updown.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_vertcat.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_l_write.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_memory.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_metis.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_nesdis.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_norm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_postorder.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rcond.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_read.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_resymbol.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowadd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowcolcounts.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowdel.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_rowfac.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_sdmult.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_sparse.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_spsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_ssmult.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_submatrix.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_super_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_super_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_super_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_symmetry.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_updown.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_vertcat.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\SourceWrappers\cholmod_write.o.c" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_blas.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_camd.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_check.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_cholesky.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_complexity.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_config.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_core.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_function.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_gpu.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_gpu_kernels.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_internal.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_io64.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_matrixops.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_modify.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_partition.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_supernodal.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\cholmod_template.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\ZERO_CHECK.vcxproj">
+      <Project>{89DE42C2-C333-3483-A963-CC6906A19027}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\AMD\amd.vcxproj">
+      <Project>{BC318C94-A2B0-3AC7-A3E7-671E07511D48}</Project>
+      <Name>amd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CAMD\camd.vcxproj">
+      <Project>{57EA8976-F0CD-3FD1-8325-46721ED44FFC}</Project>
+      <Name>camd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CCOLAMD\ccolamd.vcxproj">
+      <Project>{A405B662-04ED-3F2C-984C-8A97ECED6D5F}</Project>
+      <Name>ccolamd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\COLAMD\colamd.vcxproj">
+      <Project>{5DA853BE-3C3D-3600-A5C1-E85208107031}</Project>
+      <Name>colamd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\SuiteSparse_config\suitesparseconfig.vcxproj">
+      <Project>{889DC824-79A2-33BC-B3A7-19F8CA3F78B3}</Project>
+      <Name>suitesparseconfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,699 @@
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CHOLMOD/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/CHOLMOD/CMakeFiles/generate.stamp is up-to-date.
+  cholmod_aat.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c(76): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c(126): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c(162): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c(205): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c(251): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_add.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_add.c(76): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_add.c(77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_add.c(152): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_add.c(179): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_add.c(250): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_amd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_amd.c(69): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_amd.c(172): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_analyze.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(338): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(441): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(442): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(443): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_band.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(107): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(108): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(118): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(119): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(145): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(146): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(167): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(168): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(213): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(214): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(239): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(240): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(267): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(268): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(289): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(290): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_camd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_camd.c(73): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_camd.c(186): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_ccolamd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(55): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(96): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(160): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(161): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(170): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(192): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_change_factor.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(464): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(466): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(467): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(464): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(466): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(467): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(173): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(215): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(268): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(269): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(270): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(335): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(336): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(337): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(340): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(433): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(442): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(486): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(690): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(700): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(831): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(832): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c(878): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_check.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(523): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(549): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(691): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(692): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(693): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(702): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(921): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(937): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(975): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(976): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(977): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(978): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1254): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1523): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1524): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1667): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1829): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1830): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1831): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1832): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1833): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(2085): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(2086): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(2087): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(2088): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_colamd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_colamd.c(78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_colamd.c(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_colamd.c(98): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_colamd.c(156): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_common.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_common.c(615): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_complex.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(381): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(412): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(443): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(480): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_copy.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_copy.c(83): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_copy.c(84): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_copy.c(286): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_copy.c(287): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_csymamd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_csymamd.c(70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_dense.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(142): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(143): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(237): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(238): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(240): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(142): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(143): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(237): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(238): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(240): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(142): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(143): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(237): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(238): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_dense.c(240): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_dense.c(180): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_dense.c(247): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_dense.c(313): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_dense.c(317): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_drop.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_drop.c(64): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_drop.c(65): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_error.o.c
+  cholmod_etree.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_etree.c(133): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_etree.c(134): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_factor.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(193): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(194): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(195): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(197): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(323): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(417): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(420): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(429): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(521): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(525): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(716): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(855): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(856): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c(857): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_factorize.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c(124): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c(125): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c(126): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c(392): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  cholmod_horzcat.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_horzcat.c(78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_horzcat.c(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_horzcat.c(80): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_horzcat.c(137): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_horzcat.c(138): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_aat.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_add.o.c
+  cholmod_l_amd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_amd.c(149): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+  cholmod_l_analyze.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(372): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(597): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(737): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(759): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(761): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c(829): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_band.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c(182): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_camd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_camd.c(161): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+  cholmod_l_ccolamd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(110): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_ccolamd.c(199): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_change_factor.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(430): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(458): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(430): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(458): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_change_factor.c(430): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_check.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(921): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(937): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c(1385): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_colamd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_colamd.c(159): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_common.o.c
+  cholmod_l_complex.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(387): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(418): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(449): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_complex.c(486): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_copy.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_copy.c(367): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_csymamd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_csymamd.c(138): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_dense.o.c
+  cholmod_l_drop.o.c
+  cholmod_l_error.o.c
+  cholmod_l_etree.o.c
+  cholmod_l_factor.o.c
+  Generating Code...
+  Compiling...
+  cholmod_l_factorize.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c(422): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_horzcat.o.c
+  cholmod_l_memory.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_memory.c(121): warning C4101: 's': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_memory.c(311): warning C4101: 's': unreferenced local variable
+  cholmod_l_metis.o.c
+  cholmod_l_nesdis.o.c
+  cholmod_l_norm.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(142): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(168): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(189): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(334): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(363): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(391): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(410): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(417): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_postorder.o.c
+  cholmod_l_rcond.o.c
+  cholmod_l_read.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(440): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(441): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(454): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(434): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(618): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(619): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(652): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(860): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(611): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(999): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(962): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+  cholmod_l_resymbol.o.c
+  cholmod_l_rowadd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowadd.c(161): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+  cholmod_l_rowcolcounts.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c(77): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c(448): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+  cholmod_l_rowdel.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowdel.c(413): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+  cholmod_l_rowfac.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(106): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(437): warning C4018: '>': signed/unsigned mismatch
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(465): warning C4018: '>': signed/unsigned mismatch
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(466): warning C4018: '>=': signed/unsigned mismatch
+  cholmod_l_scale.o.c
+  cholmod_l_sdmult.o.c
+  cholmod_l_solve.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(1137): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(1351): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(1517): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(1632): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_sparse.o.c
+  cholmod_l_spsolve.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_spsolve.c(116): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_ssmult.o.c
+  Generating Code...
+  Compiling...
+  cholmod_l_submatrix.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_submatrix.c(295): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_super_numeric.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(682): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(708): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(864): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(997): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(113): warning C4101: 'pj': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(116): warning C4101: 'tail': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(689): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(719): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(869): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(1004): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(113): warning C4101: 'pj': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(116): warning C4101: 'tail': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(689): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(719): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(869): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(1004): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(113): warning C4101: 'pj': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(116): warning C4101: 'tail': unreferenced local variable
+  cholmod_l_super_solve.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(89): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(95): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(164): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(173): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(297): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(307): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(368): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(379): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(107): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(113): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(186): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(195): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(315): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(325): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(390): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(401): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_super_symbolic.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(538): warning C4244: 'initializing': conversion from '__int64' to 'double', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(183): warning C4101: 'max_bytes': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(184): warning C4101: 'env_max_fraction': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(181): warning C4101: 'env_use_gpu': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(185): warning C4101: 'max_fraction': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(182): warning C4101: 'env_max_bytes': unreferenced local variable
+  cholmod_l_symmetry.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_symmetry.c(484): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_transpose.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(459): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(995): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(1092): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_triplet.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(388): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(517): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(713): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  cholmod_l_updown.o.c
+  cholmod_l_vertcat.o.c
+  cholmod_l_write.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(639): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  cholmod_memory.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_memory.c(121): warning C4101: 's': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_memory.c(311): warning C4101: 's': unreferenced local variable
+  cholmod_metis.o.c
+  cholmod_nesdis.o.c
+  cholmod_norm.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(87): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(98): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(99): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(271): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_norm.c(272): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_postorder.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_postorder.c(200): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_postorder.c(246): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_rcond.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rcond.c(90): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rcond.c(105): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_read.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(440): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(441): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(454): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(434): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(618): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(619): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(770): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(611): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(1020): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(1021): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_read.c(962): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+  cholmod_resymbol.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c(87): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c(88): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c(255): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c(256): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c(368): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c(443): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_rowadd.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowadd.c(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowadd.c(146): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowadd.c(256): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowadd.c(605): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_rowcolcounts.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c(240): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c(345): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  cholmod_rowdel.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowdel.c(130): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_rowdel.c(131): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_rowfac.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(157): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(264): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(157): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(264): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(157): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(264): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(157): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(264): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(157): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(264): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(157): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c(264): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(249): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(290): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(300): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(428): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(457): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(510): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c(698): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_scale.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_scale.c(87): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_scale.c(88): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_scale.c(89): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_scale.c(90): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_sdmult.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(67): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(67): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(67): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\matrixops\t_cholmod_sdmult.c(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_solve.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(187): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(341): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(536): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(187): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(341): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(536): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(68): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(187): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(341): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(536): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(70): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(213): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(392): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(604): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(70): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(213): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(392): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(604): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(70): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(213): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(392): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(604): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_solve.c(71): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_solve.c(72): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_solve.c(71): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_solve.c(72): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_lsolve.c(773): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_ltsolve.c(764): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_solve.c(71): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\cholesky\t_cholmod_solve.c(72): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(123): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(124): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(128): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(340): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(341): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(344): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(545): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(546): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(550): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(772): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(773): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(776): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c(1073): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_sparse.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c(202): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c(203): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c(305): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c(438): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c(506): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c(507): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_spsolve.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_spsolve.c(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_spsolve.c(103): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_spsolve.c(218): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_spsolve.c(381): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_ssmult.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(98): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(104): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(166): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(167): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(183): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(214): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(242): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(243): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(296): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(297): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(335): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_ssmult.c(384): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_submatrix.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_submatrix.c(116): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_submatrix.c(117): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_submatrix.c(118): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_submatrix.c(119): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_super_numeric.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(925): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(113): warning C4101: 'pj': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(116): warning C4101: 'tail': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(925): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(113): warning C4101: 'pj': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(116): warning C4101: 'tail': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(144): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(925): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(113): warning C4101: 'pj': unreferenced local variable
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c(116): warning C4101: 'tail': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_numeric.c(181): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_numeric.c(183): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_super_solve.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(244): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(247): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(248): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(250): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(244): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(247): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(248): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\supernodal\t_cholmod_super_solve.c(250): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_super_symbolic.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(221): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(362): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(363): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(364): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(813): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(183): warning C4101: 'max_bytes': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(184): warning C4101: 'env_max_fraction': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(181): warning C4101: 'env_use_gpu': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(185): warning C4101: 'max_fraction': unreferenced local variable
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c(182): warning C4101: 'env_max_bytes': unreferenced local variable
+  cholmod_symmetry.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_symmetry.c(222): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_symmetry.c(223): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_symmetry.c(464): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_transpose.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(159): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(159): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(159): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(159): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(159): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(62): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(63): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_transpose.c(159): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(192): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(194): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(195): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(521): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(890): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(906): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(907): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(964): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(988): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(1060): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(1072): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c(1083): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_triplet.o.c
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(52): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(52): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(52): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cholmod\core\t_cholmod_triplet.c(52): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(239): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(370): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(371): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(372): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(575): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(576): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(594): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c(697): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cholmod_updown.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_updown.c(454): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_updown.c(455): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_updown.c(547): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_updown.c(1217): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Modify/cholmod_updown.c(1580): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_vertcat.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_vertcat.c(77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_vertcat.c(78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_vertcat.c(79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_vertcat.c(136): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../MatrixOps/cholmod_vertcat.c(137): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  cholmod_write.o.c
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(211): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(306): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(403): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(404): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(687): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include\../Check/cholmod_write.c(688): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+     Creating library C:/Coding/VS/suitesparse/build/lib/Release/libcholmod.lib and object C:/Coding/VS/suitesparse/build/lib/Release/libcholmod.exp
+  cholmod.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Release\libcholmod.dll

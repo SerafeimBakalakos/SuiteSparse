@@ -1,0 +1,110 @@
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/CMakeFiles/generate.stamp is up-to-date.
+  spqr_rmap.cpp
+  SuiteSparseQR_C.cpp
+  SuiteSparseQR_expert.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(739): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(791): note: see reference to function template instantiation 'cholmod_dense *SuiteSparseQR_solve<Complex>(int,SuiteSparseQR_factorization<Complex> *,cholmod_dense *,cholmod_common *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(741): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(762): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1236): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1482): note: see reference to function template instantiation 'cholmod_dense *SuiteSparseQR_qmult<double>(int,SuiteSparseQR_factorization<double> *,cholmod_dense *,cholmod_common *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1260): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1269): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1312): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1316): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1331): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_expert.cpp(1333): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  spqr_parallel.cpp
+  spqr_kernel.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_kernel.cpp(198): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_kernel.cpp(343): note: see reference to function template instantiation 'void spqr_kernel<double>(__int64,spqr_blob<double> *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_kernel.cpp(285): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  spqr_analyze.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(305): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(306): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(307): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(308): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(309): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(310): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_analyze.cpp(899): warning C4244: 'initializing': conversion from '__int64' to 'double', possible loss of data
+  spqr_assemble.cpp
+  spqr_cpack.cpp
+  spqr_csize.cpp
+  spqr_fcsize.cpp
+  spqr_debug.cpp
+  spqr_front.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_front.cpp(144): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_front.cpp(160): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_front.cpp(210): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_front.cpp(226): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  spqr_factorize.cpp
+  spqr_freenum.cpp
+  spqr_freesym.cpp
+  spqr_freefac.cpp
+  spqr_fsize.cpp
+  spqr_maxcolnorm.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_maxcolnorm.cpp(12): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_maxcolnorm.cpp(27): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  spqr_rconvert.cpp
+  spqr_rcount.cpp
+  Generating Code...
+  Compiling...
+  spqr_rhpack.cpp
+  spqr_rsolve.cpp
+  spqr_stranspose1.cpp
+  spqr_stranspose2.cpp
+  spqr_hpinv.cpp
+  spqr_1fixed.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1fixed.cpp(154): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1fixed.cpp(329): note: see reference to function template instantiation 'int spqr_1fixed<double>(double,__int64,cholmod_sparse *,__int64 **,__int64 **,cholmod_sparse **,__int64 *,__int64 *,cholmod_common *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1fixed.cpp(190): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  spqr_1colamd.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(613): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(777): note: see reference to function template instantiation 'int spqr_1colamd<double>(int,double,__int64,cholmod_sparse *,__int64 **,__int64 **,__int64 **,cholmod_sparse **,__int64 *,__int64 *,cholmod_common *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(614): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(615): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(616): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(617): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(618): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1colamd.cpp(702): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  SuiteSparseQR.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(260): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(1020): note: see reference to function template instantiation '__int64 SuiteSparseQR<double>(int,double,__int64,int,cholmod_sparse *,cholmod_sparse *,cholmod_dense *,cholmod_sparse **,cholmod_dense **,cholmod_sparse **,__int64 **,cholmod_sparse **,__int64 **,cholmod_dense **,cholmod_common *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(318): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(327): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(348): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(468): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(483): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(584): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(617): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(696): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(1190): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR.cpp(1208): note: see reference to function template instantiation '__int64 SuiteSparseQR<Complex>(int,double,__int64,cholmod_sparse *,cholmod_sparse **,cholmod_sparse **,__int64 **,cholmod_common *)' being compiled
+  spqr_1factor.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1factor.cpp(212): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_1factor.cpp(771): note: see reference to function template instantiation 'SuiteSparseQR_factorization<double> *spqr_1factor<double>(int,double,__int64,int,cholmod_sparse *,__int64,__int64 *,__int64 *,double *,cholmod_common *)' being compiled
+  spqr_cumsum.cpp
+  spqr_shift.cpp
+  spqr_happly.cpp
+  spqr_panel.cpp
+  spqr_happly_work.cpp
+  SuiteSparseQR_qmult.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_qmult.cpp(105): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_qmult.cpp(363): note: see reference to function template instantiation 'cholmod_dense *SuiteSparseQR_qmult<double>(int,cholmod_sparse *,cholmod_dense *,__int64 *,cholmod_dense *,cholmod_common *)' being compiled
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_qmult.cpp(566): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\SuiteSparseQR_qmult.cpp(715): note: see reference to function template instantiation 'cholmod_sparse *SuiteSparseQR_qmult<double>(int,cholmod_sparse *,cholmod_dense *,__int64 *,cholmod_sparse *,cholmod_common *)' being compiled
+  spqr_trapezoidal.cpp
+  spqr_larftb.cpp
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp(40): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp(56): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp(73): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp(74): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp(94): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Coding\VS\suitesparse\SuiteSparse\SPQR\Source\spqr_larftb.cpp(95): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  spqr_append.cpp
+  spqr_type.cpp
+  spqr_tol.cpp
+  Generating Code...
+     Creating library C:/Coding/VS/suitesparse/build/lib/Release/libspqr.lib and object C:/Coding/VS/suitesparse/build/lib/Release/libspqr.exp
+  spqr.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Release\libspqr.dll

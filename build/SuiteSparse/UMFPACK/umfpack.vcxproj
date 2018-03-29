@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A813BADE-A9F5-32FA-B89B-CE3FBCCD0004}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>umfpack</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Coding\VS\suitesparse\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">umfpack.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libumfpackd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Coding\VS\suitesparse\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">umfpack.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libumfpack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Coding\VS\suitesparse\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">umfpack.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libumfpack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Coding\VS\suitesparse\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">umfpack.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libumfpack</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Debug";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Debug\";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\libcholmodd.lib;..\..\lib\Debug\suitesparseconfigd.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\Debug\libamdd.lib;..\..\lib\Debug\libcamdd.lib;..\..\lib\Debug\libcolamdd.lib;..\..\lib\Debug\libccolamdd.lib;..\..\lib\Debug\suitesparseconfigd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/Debug/libumfpackd.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/Debug/libumfpackd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="Release";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"Release\";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\libcholmod.lib;..\..\lib\Release\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\Release\libamd.lib;..\..\lib\Release\libcamd.lib;..\..\lib\Release\libcolamd.lib;..\..\lib\Release\libccolamd.lib;..\..\lib\Release\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/Release/libumfpack.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/Release/libumfpack.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="MinSizeRel";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"MinSizeRel\";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\libcholmod.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\MinSizeRel\libamd.lib;..\..\lib\MinSizeRel\libcamd.lib;..\..\lib\MinSizeRel\libcolamd.lib;..\..\lib\MinSizeRel\libccolamd.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/MinSizeRel/libumfpack.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/MinSizeRel/libumfpack.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR="RelWithDebInfo";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NPARTITION;NCOMPLEX;__MINGW32__;CMAKE_INTDIR=\"RelWithDebInfo\";umfpack_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\.;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\AMD\Include;C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Coding\VS\suitesparse
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\libcholmod.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\RelWithDebInfo\libamd.lib;..\..\lib\RelWithDebInfo\libcamd.lib;..\..\lib\RelWithDebInfo\libcolamd.lib;..\..\lib\RelWithDebInfo\libccolamd.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Coding/VS/suitesparse/build/lib/RelWithDebInfo/libumfpack.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/umfpack.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Coding/VS/suitesparse/build/lib/RelWithDebInfo/libumfpack.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Coding/VS/suitesparse -BC:/Coding/VS/suitesparse/build --check-stamp-file C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Coding\VS\suitesparse\build\SuiteSparse\UMFPACK\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_assemble.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_assemble_fixq.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_blas3_update.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_build_tuples.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_create_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_dump.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_extend_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_garbage_collection.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_get_memory.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_grow_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_init_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_kernel.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_kernel_init.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_kernel_wrapup.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_lhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_local_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_lsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_ltsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_mem_alloc_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_mem_alloc_head_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_mem_alloc_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_mem_free_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_mem_init_memoryspace.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_row_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_scale_column.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_set_stats.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_start_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_store_lu.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_store_lu_drop.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_symbolic_usage.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_triplet_map_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_triplet_map_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_triplet_nomap_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_triplet_nomap_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_tuple_lengths.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_uhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_usolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_utsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_valid_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_di_valid_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_assemble.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_assemble_fixq.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_blas3_update.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_build_tuples.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_create_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_dump.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_extend_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_garbage_collection.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_get_memory.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_grow_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_init_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_kernel.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_kernel_init.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_kernel_wrapup.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_lhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_local_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_lsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_ltsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_mem_alloc_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_mem_alloc_head_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_mem_alloc_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_mem_free_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_mem_init_memoryspace.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_row_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_scale_column.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_set_stats.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_start_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_store_lu.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_store_lu_drop.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_symbolic_usage.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_triplet_map_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_triplet_map_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_triplet_nomap_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_triplet_nomap_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_tuple_lengths.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_uhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_usolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_utsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_valid_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_dl_valid_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_analyze.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_apply_order.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_cholmod.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_colamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_free.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_fsize.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_is_permutation.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_malloc.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_realloc.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_report_perm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_i_singletons.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_analyze.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_apply_order.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_cholmod.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_colamd.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_free.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_fsize.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_is_permutation.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_malloc.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_realloc.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_report_perm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_l_singletons.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_assemble.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_assemble_fixq.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_blas3_update.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_build_tuples.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_create_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_dump.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_extend_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_garbage_collection.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_get_memory.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_grow_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_init_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_kernel.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_kernel_init.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_kernel_wrapup.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_lhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_local_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_lsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_ltsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_mem_alloc_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_mem_alloc_head_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_mem_alloc_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_mem_free_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_mem_init_memoryspace.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_row_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_scale_column.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_set_stats.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_start_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_store_lu.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_store_lu_drop.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_symbolic_usage.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_triplet_map_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_triplet_map_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_triplet_nomap_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_triplet_nomap_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_tuple_lengths.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_uhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_usolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_utsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_valid_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zi_valid_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_assemble.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_assemble_fixq.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_blas3_update.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_build_tuples.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_create_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_dump.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_extend_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_garbage_collection.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_get_memory.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_grow_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_init_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_kernel.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_kernel_init.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_kernel_wrapup.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_lhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_local_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_lsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_ltsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_mem_alloc_element.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_mem_alloc_head_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_mem_alloc_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_mem_free_tail_block.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_mem_init_memoryspace.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_row_search.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_scale_column.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_set_stats.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_start_front.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_store_lu.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_store_lu_drop.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_symbolic_usage.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_triplet_map_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_triplet_map_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_triplet_nomap_nox.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_triplet_nomap_x.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_tuple_lengths.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_uhsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_usolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_utsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_valid_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umf_zl_valid_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_col_to_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_defaults.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_free_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_free_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_get_determinant.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_get_lunz.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_get_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_get_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_load_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_load_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_qsymbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_control.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_info.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_matrix.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_perm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_status.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_save_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_save_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_triplet_to_col.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_di_wsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_col_to_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_defaults.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_free_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_free_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_get_determinant.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_get_lunz.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_get_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_get_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_load_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_load_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_qsymbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_control.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_info.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_matrix.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_perm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_status.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_save_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_save_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_triplet_to_col.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_dl_wsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_gn_global.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_gn_tictoc.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_gn_timer.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_col_to_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_defaults.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_free_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_free_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_get_determinant.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_get_lunz.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_get_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_get_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_load_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_load_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_qsymbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_control.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_info.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_matrix.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_perm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_status.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_save_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_save_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_triplet_to_col.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zi_wsolve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_col_to_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_defaults.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_free_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_free_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_get_determinant.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_get_lunz.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_get_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_get_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_load_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_load_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_qsymbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_control.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_info.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_matrix.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_perm.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_status.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_triplet.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_report_vector.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_save_numeric.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_save_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_scale.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_solve.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_symbolic.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_transpose.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_triplet_to_col.o.c" />
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\SourceWrappers\umfpack_zl_wsolve.o.c" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_col_to_triplet.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_defaults.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_free_numeric.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_free_symbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_get_determinant.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_get_lunz.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_get_numeric.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_get_symbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_global.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_load_numeric.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_load_symbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_numeric.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_qsymbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_control.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_info.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_matrix.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_numeric.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_perm.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_status.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_symbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_triplet.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_report_vector.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_save_numeric.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_save_symbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_scale.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_solve.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_symbolic.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_tictoc.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_timer.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_transpose.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_triplet_to_col.h" />
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\UMFPACK\Include\umfpack_wsolve.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\ZERO_CHECK.vcxproj">
+      <Project>{89DE42C2-C333-3483-A963-CC6906A19027}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\AMD\amd.vcxproj">
+      <Project>{BC318C94-A2B0-3AC7-A3E7-671E07511D48}</Project>
+      <Name>amd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CAMD\camd.vcxproj">
+      <Project>{57EA8976-F0CD-3FD1-8325-46721ED44FFC}</Project>
+      <Name>camd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CCOLAMD\ccolamd.vcxproj">
+      <Project>{A405B662-04ED-3F2C-984C-8A97ECED6D5F}</Project>
+      <Name>ccolamd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\CHOLMOD\cholmod.vcxproj">
+      <Project>{F87D2117-BBB8-3C44-BB45-B4857C874BD9}</Project>
+      <Name>cholmod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\COLAMD\colamd.vcxproj">
+      <Project>{5DA853BE-3C3D-3600-A5C1-E85208107031}</Project>
+      <Name>colamd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Coding\VS\suitesparse\build\SuiteSparse\SuiteSparse_config\suitesparseconfig.vcxproj">
+      <Project>{889DC824-79A2-33BC-B3A7-19F8CA3F78B3}</Project>
+      <Name>suitesparseconfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

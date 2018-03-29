@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Coding/VS/suitesparse/SuiteSparse/CXSparse/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeParseArguments.cmake

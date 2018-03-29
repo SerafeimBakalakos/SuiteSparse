@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\SourceWrappers\colamd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\SourceWrappers\colamd_global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\SourceWrappers\colamd_l.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\Include\colamd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\COLAMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F8AF75DA-943C-3648-A5BD-9268F7570CAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B9C6253-0782-3D4B-9CBF-4C957E45F0A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

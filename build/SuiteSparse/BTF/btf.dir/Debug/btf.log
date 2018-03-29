@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/BTF/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/CMakeFiles/generate.stamp is up-to-date.
+  btf_l_maxtrans.o.c
+  btf_l_order.o.c
+  btf_l_strongcomp.o.c
+  btf_maxtrans.o.c
+  btf_order.o.c
+  btf_strongcomp.o.c
+  Generating Code...
+     Creating library C:/Coding/VS/suitesparse/build/lib/Debug/libbtfd.lib and object C:/Coding/VS/suitesparse/build/lib/Debug/libbtfd.exp
+  btf.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Debug\libbtfd.dll

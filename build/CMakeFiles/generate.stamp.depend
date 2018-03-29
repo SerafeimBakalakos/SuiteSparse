@@ -1,0 +1,58 @@
+# CMake generation dependency list for this directory.
+C:/Coding/VS/suitesparse/CMakeLists.txt
+C:/Coding/VS/suitesparse/build/CMakeFiles/3.11.0-rc2/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Coding/VS/suitesparse/build/CMakeFiles/3.11.0-rc2/CMakeCCompiler.cmake
+C:/Coding/VS/suitesparse/build/CMakeFiles/3.11.0-rc2/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Coding/VS/suitesparse/build/CMakeFiles/3.11.0-rc2/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Coding/VS/suitesparse/checkGetSuiteSparse.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckFortranFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindLAPACK.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckFortranFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Coding/VS/suitesparse/cmake/SuiteSparse-config-install.cmake.in
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/BasicConfigVersion-SameMajorVersion.cmake.in

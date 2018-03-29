@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\SourceWrappers\btf_l_maxtrans.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\SourceWrappers\btf_l_order.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\SourceWrappers\btf_l_strongcomp.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\SourceWrappers\btf_maxtrans.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\SourceWrappers\btf_order.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\SourceWrappers\btf_strongcomp.o.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\Include\btf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\Include\btf_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Coding\VS\suitesparse\SuiteSparse\BTF\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F8AF75DA-943C-3648-A5BD-9268F7570CAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B9C6253-0782-3D4B-9CBF-4C957E45F0A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
