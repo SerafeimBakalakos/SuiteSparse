@@ -1,9 +1,9 @@
 ﻿  suitesparse_utilities.cpp
-suitesparse_utilities.cpp(89): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+suitesparse_utilities.cpp(93): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
      Creating library C:\Coding\VS\suitesparse\build\x64\Release\suitesparse_utilities.lib and object C:\Coding\VS\suitesparse\build\x64\Release\suitesparse_utilities.exp
   Generating code
-  5 of 6 functions (83.3%) were compiled, the rest were copied from previous compilation.
-    2 functions were new in current compilation
+  1 of 8 functions (12.5%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   suitesparse_utilities.vcxproj -> C:\Coding\VS\suitesparse\build\x64\Release\suitesparse_utilities.dll
