@@ -1,4 +1,6 @@
+build/lib*
 build/x64*
-build/x32*
+build/x86*
+build/.vs*
 install*
 *~
