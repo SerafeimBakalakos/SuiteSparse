@@ -1,12 +1,13 @@
 ﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CCOLAMD/CMakeLists.txt
   CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/CCOLAMD/CMakeFiles/generate.stamp is up-to-date.
   ccolamd.c
-C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include\../Source/ccolamd.c(1664): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include\../Source/ccolamd.c(1671): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include\../Source/ccolamd.c(1714): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CCOLAMD\Include\../Source/ccolamd.c(1719): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\ccolamd\source\ccolamd.c(1664): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\ccolamd\source\ccolamd.c(1671): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\ccolamd\source\ccolamd.c(1714): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\ccolamd\source\ccolamd.c(1719): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
   ccolamd_global.c
   ccolamd_l.o.c
   Generating Code...
+  Auto build dll exports
      Creating library C:/Coding/VS/suitesparse/build/lib/Release/libccolamd.lib and object C:/Coding/VS/suitesparse/build/lib/Release/libccolamd.exp
   ccolamd.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Release\libccolamd.dll

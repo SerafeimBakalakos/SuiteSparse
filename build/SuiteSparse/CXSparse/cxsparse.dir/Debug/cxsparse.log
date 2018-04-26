@@ -1,15 +1,13 @@
-﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CXSparse/CMakeLists.txt
-  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/CXSparse/CMakeFiles/generate.stamp is up-to-date.
-  cs_add_ci.o.c
+﻿  cs_add_ci.o.c
   cs_add_cl.o.c
   cs_add_di.o.c
   cs_add_dl.o.c
   cs_amd_ci.o.c
   cs_amd_cl.o.c
   cs_amd_di.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_amd.c(31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_amd.c(31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   cs_amd_dl.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_amd.c(31): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_amd.c(31): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
   cs_chol_ci.o.c
   cs_chol_cl.o.c
   cs_chol_di.o.c
@@ -98,11 +96,11 @@ C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_amd.c(31): wa
   cs_load_ci.o.c
   cs_load_cl.o.c
   cs_load_di.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_load.c(16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_load.c(16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
   cs_load_dl.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_load.c(16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_load.c(16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: see declaration of 'fscanf'
   cs_lsolve_ci.o.c
   cs_lsolve_cl.o.c
   cs_lsolve_di.o.c
@@ -114,11 +112,11 @@ C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_load.c(16): w
   cs_lu_ci.o.c
   cs_lu_cl.o.c
   cs_lu_di.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_lu.c(12): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_lu.c(12): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
   Generating Code...
   Compiling...
   cs_lu_dl.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_lu.c(12): warning C4244: '=': conversion from 'const double' to '__int64', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_lu.c(12): warning C4244: '=': conversion from 'const double' to '__int64', possible loss of data
   cs_lusol_ci.o.c
   cs_lusol_cl.o.c
   cs_lusol_di.o.c
@@ -166,9 +164,9 @@ C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_lu.c(12): war
   cs_qr_ci.o.c
   cs_qr_cl.o.c
   cs_qr_di.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_qr.c(14): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_qr.c(14): warning C4244: '=': conversion from 'const double' to 'int', possible loss of data
   cs_qr_dl.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_qr.c(14): warning C4244: '=': conversion from 'const double' to '__int64', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_qr.c(14): warning C4244: '=': conversion from 'const double' to '__int64', possible loss of data
   cs_qrsol_ci.o.c
   cs_qrsol_cl.o.c
   cs_qrsol_di.o.c
@@ -177,7 +175,7 @@ C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_qr.c(14): war
   cs_randperm_cl.o.c
   cs_randperm_di.o.c
   cs_randperm_dl.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_randperm.c(13): warning C4244: 'function': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_randperm.c(13): warning C4244: 'function': conversion from '__int64' to 'unsigned int', possible loss of data
   cs_reach_ci.o.c
   cs_reach_cl.o.c
   cs_reach_di.o.c
@@ -204,7 +202,7 @@ C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_randperm.c(13
   cs_sqr_cl.o.c
   cs_sqr_di.o.c
   cs_sqr_dl.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_sqr.c(83): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\cxsparse\source\cs_sqr.c(83): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
   cs_symperm_ci.o.c
   cs_symperm_cl.o.c
   cs_symperm_di.o.c
@@ -238,5 +236,6 @@ C:\Coding\VS\suitesparse\SuiteSparse\CXSparse\Include\../Source/cs_sqr.c(83): wa
   cs_utsolve_di.o.c
   cs_utsolve_dl.o.c
   Generating Code...
+  Auto build dll exports
      Creating library C:/Coding/VS/suitesparse/build/lib/Debug/libcxsparsed.lib and object C:/Coding/VS/suitesparse/build/lib/Debug/libcxsparsed.exp
   cxsparse.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Debug\libcxsparsed.dll

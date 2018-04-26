@@ -1,48 +1,47 @@
-﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CAMD/CMakeLists.txt
-  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/CAMD/CMakeFiles/generate.stamp is up-to-date.
-  camd_global.c
+﻿  camd_global.c
   camd_i_1.o.c
   camd_i_2.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(727): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(727): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   camd_i_aat.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_aat.c(179): warning C4244: '=': conversion from '::size_t' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_aat.c(179): warning C4244: '=': conversion from '::size_t' to 'double', possible loss of data
   camd_i_control.o.c
   camd_i_defaults.o.c
   camd_i_dump.o.c
   camd_i_info.o.c
   camd_i_order.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_order.c(187): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_order.c(187): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
   camd_i_postorder.o.c
   camd_i_preprocess.o.c
   camd_i_valid.o.c
   camd_l_1.o.c
   camd_l_2.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(727): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(1715): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(1716): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(1753): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(1783): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_2.c(1789): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(727): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(1715): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(1716): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(1753): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(1783): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_2.c(1789): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
   camd_l_aat.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_aat.c(175): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_aat.c(176): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_aat.c(178): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_aat.c(179): warning C4244: '=': conversion from '::size_t' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_aat.c(175): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_aat.c(176): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_aat.c(178): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_aat.c(179): warning C4244: '=': conversion from '::size_t' to 'double', possible loss of data
   camd_l_control.o.c
   camd_l_defaults.o.c
   camd_l_dump.o.c
   camd_l_info.o.c
   camd_l_order.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_order.c(48): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_order.c(67): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_order.c(198): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_order.c(48): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_order.c(67): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_order.c(198): warning C4244: '=': conversion from '__int64' to 'double', possible loss of data
   Generating Code...
   Compiling...
   camd_l_postorder.o.c
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_postorder.c(30): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
-C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include\../Source/camd_postorder.c(31): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_postorder.c(30): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\coding\vs\suitesparse\suitesparse\camd\source\camd_postorder.c(31): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
   camd_l_preprocess.o.c
   camd_l_valid.o.c
   Generating Code...
+  Auto build dll exports
      Creating library C:/Coding/VS/suitesparse/build/lib/Debug/libcamdd.lib and object C:/Coding/VS/suitesparse/build/lib/Debug/libcamdd.exp
   camd.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Debug\libcamdd.dll

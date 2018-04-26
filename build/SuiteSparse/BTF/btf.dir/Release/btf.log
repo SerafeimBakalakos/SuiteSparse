@@ -7,5 +7,6 @@
   btf_order.o.c
   btf_strongcomp.o.c
   Generating Code...
+  Auto build dll exports
      Creating library C:/Coding/VS/suitesparse/build/lib/Release/libbtf.lib and object C:/Coding/VS/suitesparse/build/lib/Release/libbtf.exp
   btf.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Release\libbtf.dll
