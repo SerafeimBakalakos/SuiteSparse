@@ -63,9 +63,11 @@ extern "C"
 	 *		Length = order + 1. The last entry is col_offsets[order] = nnz.
 	 * param "out_permutation": Out parameter - buffer for the computed permutation vector. Length == order. This permutation 
 	 *		vector can be intepreted as: original index = i, reordered index = out_permutation[i]
+	 * param "out_factor_nnz": Out parameter - the number of non zero entries in a subsequent L*L^T factorization. Will be -1 if 
+			the ordering fails.
 	 */
 	__declspec(dllexport) int util_reorder_amd_upper(int order, int nnz, int* row_indices, int* col_offsets,
-		int* out_permutation, cholmod_common* common);
+		int* out_permutation, int* out_factor_nnz, cholmod_common* common);
 
 	/*
 	 * Adds a row and column to an LDL' factorization. Before updating the kth row and column of L must be equal to the kth  
