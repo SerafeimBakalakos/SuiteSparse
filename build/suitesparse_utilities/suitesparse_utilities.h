@@ -1,6 +1,7 @@
 #pragma once
 #include "cholmod.h"
 
+// In all these the sparse format is CSC with sorted rows and columns
 extern "C"
 {
 	/*
@@ -45,6 +46,26 @@ extern "C"
 	 */
 	__declspec(dllexport) int util_factorize_cscupper(int order, int nnz, double* values, int* row_indices,	int* col_offsets, 
 		cholmod_factor** out_factorized_matrix, cholmod_common* common);
+
+	/*
+	 * Returns the number of non zero entries in the factorized matrix. If anything goes wrong -1 is returned.
+	 * param "factorization": The factorized matrix
+	 */
+	__declspec(dllexport) int util_get_factor_nonzeros(cholmod_factor* factorization);
+
+	/*
+	 * Caclulates a fill reducing ordering using the Approximate Minimum Degree algorithm for a symmetric sparse matrix. Returns  
+	 * 1 if the reordering is successful, 0 if it failed (e.g. due to exceeding the available memory).
+	 * param "order": Number of rows = number of columns.
+	 * param "nnz": Number of non zero entries in the upper triangle.
+	 * param "row_indices": Array containing the row indices of the non zero entries of the upper triangle. Length = nnz.
+	 * param "col_offsets": Array containing the indices into values (and row_indices) of the first entry of each column.
+	 *		Length = order + 1. The last entry is col_offsets[order] = nnz.
+	 * param "out_permutation": Out parameter - buffer for the computed permutation vector. Length == order. This permutation 
+	 *		vector can be intepreted as: original index = i, reordered index = out_permutation[i]
+	 */
+	__declspec(dllexport) int util_reorder_amd_upper(int order, int nnz, int* row_indices, int* col_offsets,
+		int* out_permutation, cholmod_common* common);
 
 	/*
 	 * Adds a row and column to an LDL' factorization. Before updating the kth row and column of L must be equal to the kth  
