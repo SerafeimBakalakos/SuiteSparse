@@ -7,8 +7,9 @@ extern "C"
 	/*
 	 * Allocates in heap and returns a handle with matrix settings that must be passed to all CHOLMOD functions. Returns NULL if
 	 * any failure occurs.
-	 * param "factorization": 0 for for simplicial factorization, 1 for automatic decidion between supernodal/simplicial factorization,
-	 *		2 for automatic decidion between supernodal/simplicial factorization and after factorization convert to simplicial.
+	 * param "factorization": 0 for for simplicial L^T*L or L^T*D*L factorization, 1 for supernodal L^T*L factorization,
+	 *      2 for automatic decidion between supernodal/simplicial factorization,
+	 *		3 for automatic decidion between supernodal/simplicial factorization and after factorization convert to simplicial.
 	 *		Supernodal is usually faster, but to modify the factorized matrix it must be converted to simplicial, though this can be
 	 *		done automatically.
 	 * param "ordering": 0 for no reordering, 1 for automatic reordering (let suitesparse try some alternatives and keep the best).
@@ -95,14 +96,17 @@ extern "C"
 	_declspec(dllexport) int util_row_delete(cholmod_factor* L, int k, cholmod_common* common);
 
 	/*
-	 * Solves a linear system with a single right hand side vector.
-	 * param "order: Number of matrix rows = number of matrix columns = length of right hand side vector.
+	 * Solves a linear system or applies back substitution or forward substituiton to 1 ore more right hand sides.
+	 * Returns 1 if the method succeeds, 0 otherwise.
+	 * param "system": 0 for system solution (A*x=b), 4 for forward substitution (L*x=b), 5 for back substitution (L^T*x=b)
+	 * param "num_rows": Number of matrix rows = number of matrix columns = number of rhs matrix rows.
+	 * param "num_rhs": Number of rhs vectors = number of columns in rhs matrix.
 	 * param "factorized_matrix": The data of the cholesky factorization of the matrix.
-	 * param "rhs": The right hand side vector. Its length must be equal to the order of the matrix: factorized_matrix->n.
-	 * param "out_solution": Buffer for the left hand side vector (unknown). Its length must be equal to the order of the matrix: 
-			factorized_matrix->n
+	 * param "rhs": The right hand side matrix. Column major array with dimensions = num_rows -by- num_rhs.
+	 * param "out_solution": Buffer for the left hand side vector (unknown). Column major array with dimensions = 
+	 *		num_rows -by- num_rhs.
 	 * param "common": The matrix settings.
-	 */
-	__declspec(dllexport) void util_solve(int order, cholmod_factor* factorized_matrix, double* rhs, double* out_solution,
-		cholmod_common* common);
+	*/
+	__declspec(dllexport) int util_solve(int system, int num_rows, int num_rhs, cholmod_factor* factorized_matrix, double* rhs,
+		double* out_solution, cholmod_common* common);
 }
