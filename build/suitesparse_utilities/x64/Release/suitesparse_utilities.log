@@ -1,7 +1,7 @@
 ﻿  suitesparse_utilities.cpp
-c:\coding\vs\suitesparse\build\suitesparse_utilities\suitesparse_utilities.cpp(133): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-c:\coding\vs\suitesparse\build\suitesparse_utilities\suitesparse_utilities.cpp(149): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-c:\coding\vs\suitesparse\build\suitesparse_utilities\suitesparse_utilities.cpp(195): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\coding\vs\suitesparse\build\suitesparse_utilities\suitesparse_utilities.cpp(139): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\build\suitesparse_utilities\suitesparse_utilities.cpp(155): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\coding\vs\suitesparse\build\suitesparse_utilities\suitesparse_utilities.cpp(201): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
      Creating library C:\Coding\VS\suitesparse\build\x64\Release\suitesparse_utilities.lib and object C:\Coding\VS\suitesparse\build\x64\Release\suitesparse_utilities.exp
   Generating code
   1 of 250 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
