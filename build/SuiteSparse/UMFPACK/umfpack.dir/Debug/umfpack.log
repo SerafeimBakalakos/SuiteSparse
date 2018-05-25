@@ -1,4 +1,6 @@
-﻿  umf_di_assemble.o.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/UMFPACK/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/UMFPACK/CMakeFiles/generate.stamp is up-to-date.
+  umf_di_assemble.o.c
 c:\coding\vs\suitesparse\suitesparse\umfpack\source\umf_assemble.c(115): warning C4068: unknown pragma
 c:\coding\vs\suitesparse\suitesparse\umfpack\source\umf_assemble.c(135): warning C4068: unknown pragma
 c:\coding\vs\suitesparse\suitesparse\umfpack\source\umf_assemble.c(160): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data

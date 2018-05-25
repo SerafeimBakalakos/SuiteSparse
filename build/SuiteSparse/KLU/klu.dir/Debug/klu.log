@@ -1,4 +1,6 @@
-﻿  klu_analyze.o.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/KLU/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/KLU/CMakeFiles/generate.stamp is up-to-date.
+  klu_analyze.o.c
 c:\coding\vs\suitesparse\suitesparse\klu\source\klu_analyze.c(159): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
 c:\coding\vs\suitesparse\suitesparse\klu\source\klu_analyze.c(294): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   klu_analyze_given.o.c

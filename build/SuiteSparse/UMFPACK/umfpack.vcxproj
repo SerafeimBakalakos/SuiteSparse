@@ -125,7 +125,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <Link>
-      <AdditionalDependencies>..\..\lib\Debug\libcholmodd.lib;..\..\lib\Debug\suitesparseconfigd.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\Debug\libamdd.lib;..\..\lib\Debug\libcamdd.lib;..\..\lib\Debug\libcolamdd.lib;..\..\lib\Debug\libccolamdd.lib;..\..\lib\Debug\suitesparseconfigd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Debug\libcholmodd.lib;..\..\lib\Debug\suitesparseconfigd.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;..\..\lib\Debug\libamdd.lib;..\..\lib\Debug\libcamdd.lib;..\..\lib\Debug\libcolamdd.lib;..\..\lib\Debug\libccolamdd.lib;..\..\lib\Debug\suitesparseconfigd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -183,7 +183,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <Link>
-      <AdditionalDependencies>..\..\lib\Release\libcholmod.lib;..\..\lib\Release\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\Release\libamd.lib;..\..\lib\Release\libcamd.lib;..\..\lib\Release\libcolamd.lib;..\..\lib\Release\libccolamd.lib;..\..\lib\Release\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Release\libcholmod.lib;..\..\lib\Release\suitesparseconfig.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;..\..\lib\Release\libamd.lib;..\..\lib\Release\libcamd.lib;..\..\lib\Release\libcolamd.lib;..\..\lib\Release\libccolamd.lib;..\..\lib\Release\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -241,7 +241,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <Link>
-      <AdditionalDependencies>..\..\lib\MinSizeRel\libcholmod.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\MinSizeRel\libamd.lib;..\..\lib\MinSizeRel\libcamd.lib;..\..\lib\MinSizeRel\libcolamd.lib;..\..\lib\MinSizeRel\libccolamd.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\libcholmod.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;..\..\lib\MinSizeRel\libamd.lib;..\..\lib\MinSizeRel\libcamd.lib;..\..\lib\MinSizeRel\libcolamd.lib;..\..\lib\MinSizeRel\libccolamd.lib;..\..\lib\MinSizeRel\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -298,7 +298,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <Link>
-      <AdditionalDependencies>..\..\lib\RelWithDebInfo\libcholmod.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;..\..\..\lapack_windows\x64\libblas.lib;..\..\..\lapack_windows\x64\liblapack.lib;..\..\lib\RelWithDebInfo\libamd.lib;..\..\lib\RelWithDebInfo\libcamd.lib;..\..\lib\RelWithDebInfo\libcolamd.lib;..\..\lib\RelWithDebInfo\libccolamd.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\libcholmod.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;..\..\lib\RelWithDebInfo\libamd.lib;..\..\lib\RelWithDebInfo\libcamd.lib;..\..\lib\RelWithDebInfo\libcolamd.lib;..\..\lib\RelWithDebInfo\libccolamd.lib;..\..\lib\RelWithDebInfo\suitesparseconfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>

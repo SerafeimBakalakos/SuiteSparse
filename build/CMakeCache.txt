@@ -36,7 +36,7 @@ BLAS_acml_LIBRARY:FILEPATH=BLAS_acml_LIBRARY-NOTFOUND
 BLAS_acml_mp_LIBRARY:FILEPATH=BLAS_acml_mp_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_blas_LIBRARY:FILEPATH=C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib
+BLAS_blas_LIBRARY:FILEPATH=BLAS_blas_LIBRARY-NOTFOUND
 
 //Path to a library.
 BLAS_blis_LIBRARY:FILEPATH=BLAS_blis_LIBRARY-NOTFOUND
@@ -215,7 +215,7 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x64/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.13.26128/bin/Hostx86/x64/link.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -393,10 +393,10 @@ SPQR_SOURCE_DIR:STATIC=C:/Coding/VS/suitesparse/SuiteSparse/SPQR
 SUBPROJECTS_TO_ADD:STRING=SuiteSparse_config;AMD;BTF;CAMD;CCOLAMD;COLAMD;CHOLMOD;CXSparse;KLU;LDL;UMFPACK;SPQR
 
 //Path to custom library file for BLAS
-SUITESPARSE_CUSTOM_BLAS_LIB:STRING=C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib
+SUITESPARSE_CUSTOM_BLAS_LIB:STRING=C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib
 
 //Path to custom library file for LAPACK
-SUITESPARSE_CUSTOM_LAPACK_LIB:STRING=C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib
+SUITESPARSE_CUSTOM_LAPACK_LIB:STRING=C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib
 
 //get the last version of suiteSparse
 SUITESPARSE_DL_LAST:BOOL=OFF
@@ -441,7 +441,7 @@ camd_LIB_DEPENDS:STATIC=general;suitesparseconfig;
 ccolamd_LIB_DEPENDS:STATIC=general;suitesparseconfig;
 
 //Dependencies for the target
-cholmod_LIB_DEPENDS:STATIC=general;amd;general;camd;general;colamd;general;ccolamd;general;suitesparseconfig;general;C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib;general;C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib;
+cholmod_LIB_DEPENDS:STATIC=general;amd;general;camd;general;colamd;general;ccolamd;general;suitesparseconfig;general;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;general;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;
 
 //Dependencies for the target
 colamd_LIB_DEPENDS:STATIC=general;suitesparseconfig;
@@ -459,7 +459,7 @@ ldl_LIB_DEPENDS:STATIC=general;suitesparseconfig;
 metis_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-spqr_LIB_DEPENDS:STATIC=general;camd;general;ccolamd;general;cholmod;general;suitesparseconfig;general;C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib;general;C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib;
+spqr_LIB_DEPENDS:STATIC=general;camd;general;ccolamd;general;cholmod;general;suitesparseconfig;general;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;general;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;
 
 //Value Computed by CMake
 suitesparseconfig_BINARY_DIR:STATIC=C:/Coding/VS/suitesparse/build/SuiteSparse/SuiteSparse_config
@@ -471,7 +471,7 @@ suitesparseconfig_LIB_DEPENDS:STATIC=
 suitesparseconfig_SOURCE_DIR:STATIC=C:/Coding/VS/suitesparse/SuiteSparse/SuiteSparse_config
 
 //Dependencies for the target
-umfpack_LIB_DEPENDS:STATIC=general;amd;general;camd;general;colamd;general;ccolamd;general;cholmod;general;suitesparseconfig;general;C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib;general;C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib;
+umfpack_LIB_DEPENDS:STATIC=general;amd;general;camd;general;colamd;general;ccolamd;general;cholmod;general;suitesparseconfig;general;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;general;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.2.185\windows\mkl\lib\intel64_win\mkl_rt.lib;
 
 
 ########################
@@ -486,10 +486,6 @@ BLAS_acml_LIBRARY-ADVANCED:INTERNAL=1
 BLAS_acml_mp_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_blas_LIBRARY
 BLAS_blas_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_blas_WORKS
-BLAS_blas_WORKS-ADVANCED:INTERNAL=1
-//Have function sgemm_
-BLAS_blas_WORKS:INTERNAL=
 //ADVANCED property for variable: BLAS_blis_LIBRARY
 BLAS_blis_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_complib.sgimath_LIBRARY

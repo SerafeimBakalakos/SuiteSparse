@@ -1,4 +1,6 @@
-﻿  spqr_rmap.cpp
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SPQR/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/SPQR/CMakeFiles/generate.stamp is up-to-date.
+  spqr_rmap.cpp
   SuiteSparseQR_C.cpp
   SuiteSparseQR_expert.cpp
 c:\coding\vs\suitesparse\suitesparse\spqr\source\suitesparseqr_expert.cpp(739): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data

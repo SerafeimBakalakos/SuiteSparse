@@ -61,7 +61,7 @@ __declspec(dllexport) int* read_int_array(std::string path, int* out_length)
 	file >> word;
 	sstream << word;
 	sstream >> length;
-	sstream.clear(); 
+	sstream.clear();
 
 	// Allocate the array
 	int* arry = new int[length];

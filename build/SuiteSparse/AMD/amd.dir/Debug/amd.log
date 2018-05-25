@@ -1,4 +1,6 @@
-﻿  amd_global.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/AMD/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/AMD/CMakeFiles/generate.stamp is up-to-date.
+  amd_global.c
   amd_i_1.o.c
   amd_i_2.o.c
 c:\coding\vs\suitesparse\suitesparse\amd\source\amd_2.c(603): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

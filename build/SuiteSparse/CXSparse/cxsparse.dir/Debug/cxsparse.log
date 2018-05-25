@@ -1,4 +1,6 @@
-﻿  cs_add_ci.o.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/CXSparse/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/CXSparse/CMakeFiles/generate.stamp is up-to-date.
+  cs_add_ci.o.c
   cs_add_cl.o.c
   cs_add_di.o.c
   cs_add_dl.o.c

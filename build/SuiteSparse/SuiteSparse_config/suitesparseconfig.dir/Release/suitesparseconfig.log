@@ -1,2 +1,3 @@
-﻿  SuiteSparse_config.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/SuiteSparse_config/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/SuiteSparse_config/CMakeFiles/generate.stamp is up-to-date.
   suitesparseconfig.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Release\suitesparseconfig.lib

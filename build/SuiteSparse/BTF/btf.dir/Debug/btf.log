@@ -1,4 +1,6 @@
-﻿  btf_l_maxtrans.o.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/BTF/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/CMakeFiles/generate.stamp is up-to-date.
+  btf_l_maxtrans.o.c
   btf_l_order.o.c
   btf_l_strongcomp.o.c
   btf_maxtrans.o.c

@@ -1,4 +1,6 @@
-﻿  colamd.c
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/COLAMD/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/COLAMD/CMakeFiles/generate.stamp is up-to-date.
+  colamd.c
 c:\coding\vs\suitesparse\suitesparse\colamd\source\colamd.c(1557): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 c:\coding\vs\suitesparse\suitesparse\colamd\source\colamd.c(1563): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
   colamd_global.c

@@ -1,3 +1,5 @@
-﻿  Auto build dll exports
+﻿  Building Custom Rule C:/Coding/VS/suitesparse/SuiteSparse/BTF/CMakeLists.txt
+  CMake does not need to re-run because C:/Coding/VS/suitesparse/build/SuiteSparse/BTF/CMakeFiles/generate.stamp is up-to-date.
+  Auto build dll exports
      Creating library C:/Coding/VS/suitesparse/build/lib/Release/libbtf.lib and object C:/Coding/VS/suitesparse/build/lib/Release/libbtf.exp
   btf.vcxproj -> C:\Coding\VS\suitesparse\build\lib\Release\libbtf.dll

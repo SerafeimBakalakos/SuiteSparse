@@ -102,7 +102,7 @@ add_library(SuiteSparse::cholmod SHARED IMPORTED)
 
 set_target_properties(SuiteSparse::cholmod PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/suitesparse"
-  INTERFACE_LINK_LIBRARIES "SuiteSparse::amd;SuiteSparse::camd;SuiteSparse::colamd;SuiteSparse::ccolamd;SuiteSparse::suitesparseconfig;C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib;C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib"
+  INTERFACE_LINK_LIBRARIES "SuiteSparse::amd;SuiteSparse::camd;SuiteSparse::colamd;SuiteSparse::ccolamd;SuiteSparse::suitesparseconfig;C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib;C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib"
 )
 
 # Create imported target SuiteSparse::cxsparse
@@ -134,7 +134,7 @@ add_library(SuiteSparse::umfpack SHARED IMPORTED)
 
 set_target_properties(SuiteSparse::umfpack PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/suitesparse"
-  INTERFACE_LINK_LIBRARIES "SuiteSparse::amd;SuiteSparse::camd;SuiteSparse::colamd;SuiteSparse::ccolamd;SuiteSparse::cholmod;SuiteSparse::suitesparseconfig;C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib;C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib"
+  INTERFACE_LINK_LIBRARIES "SuiteSparse::amd;SuiteSparse::camd;SuiteSparse::colamd;SuiteSparse::ccolamd;SuiteSparse::cholmod;SuiteSparse::suitesparseconfig;C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib;C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib"
 )
 
 # Create imported target SuiteSparse::spqr
@@ -142,7 +142,7 @@ add_library(SuiteSparse::spqr SHARED IMPORTED)
 
 set_target_properties(SuiteSparse::spqr PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include/suitesparse"
-  INTERFACE_LINK_LIBRARIES "SuiteSparse::camd;SuiteSparse::ccolamd;SuiteSparse::cholmod;SuiteSparse::suitesparseconfig;C:/Coding/VS/suitesparse/lapack_windows/x64/libblas.lib;C:/Coding/VS/suitesparse/lapack_windows/x64/liblapack.lib"
+  INTERFACE_LINK_LIBRARIES "SuiteSparse::camd;SuiteSparse::ccolamd;SuiteSparse::cholmod;SuiteSparse::suitesparseconfig;C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib;C:\\Program Files (x86)\\IntelSWTools\\compilers_and_libraries_2018.2.185\\windows\\mkl\\lib\\intel64_win\\mkl_rt.lib"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
