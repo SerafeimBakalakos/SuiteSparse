@@ -90,7 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;SUITESPARSEUTILITIES_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -139,7 +139,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;SUITESPARSEUTILITIES_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Coding\VS\suitesparse\SuiteSparse\CHOLMOD\Include;C:\Coding\VS\suitesparse\SuiteSparse\SuiteSparse_config;C:\Coding\VS\suitesparse\SuiteSparse\CAMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -166,6 +166,9 @@
     <ClCompile Include="suitesparse_utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SuiteSparse\CAMD\camd.vcxproj">
+      <Project>{57ea8976-f0cd-3fd1-8325-46721ed44ffc}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\SuiteSparse\CHOLMOD\cholmod.vcxproj">
       <Project>{f87d2117-bbb8-3c44-bb45-b4857c874bd9}</Project>
     </ProjectReference>

@@ -1,7 +1,8 @@
-#pragma once
+﻿#pragma once
 #include "cholmod.h"
 
 // In all these the sparse format is CSC with sorted rows and columns
+// TODO: use const in parameters
 extern "C"
 {
 	/*
@@ -55,20 +56,59 @@ extern "C"
 	__declspec(dllexport) int util_get_factor_nonzeros(cholmod_factor* factorization);
 
 	/*
-	* Caclulates a fill reducing ordering using the Approximate Minimum Degree algorithm for a symmetric sparse matrix. Returns
-	* 1 if the reordering is successful, 0 if it failed (e.g. due to exceeding the available memory).
+	* Calculates a fill reducing ordering using the Approximate Minimum Degree algorithm for a symmetric sparse matrix. Returns
+	* 1 if the reordering is successful, 0 if it failed (e.g. due to exceeding the available memory or invalid matrix pattern).
 	* param "order": Number of rows = number of columns.
 	* param "nnz": Number of non zero entries in the upper triangle.
 	* param "row_indices": Array containing the row indices of the non zero entries of the upper triangle. Length = nnz.
 	* param "col_offsets": Array containing the indices into values (and row_indices) of the first entry of each column.
 	*		Length = order + 1. The last entry is col_offsets[order] = nnz.
 	* param "out_permutation": Out parameter - buffer for the computed permutation vector. Length == order. This permutation
-	*		vector can be intepreted as: original index = i, reordered index = out_permutation[i]
+	*		vector is new-to-old; it can be intepreted as: original index = out_permutation[i], reordered index = i
 	* param "out_factor_nnz": Out parameter - the number of non zero entries in a subsequent L*L^T factorization. Will be -1 if
-	the ordering fails.
+	*		the ordering fails.
 	*/
 	__declspec(dllexport) int util_reorder_amd_upper(int order, int nnz, int* row_indices, int* col_offsets,
 		int* out_permutation, int* out_factor_nnz, cholmod_common* common);
+
+	/*
+	* Calculates a fill reducing ordering using the Constrained Approximate Minimum Degree algorithm for a A + A^T, where A is a 
+	* square sparse matrix. The pattern of A + A^T is formed first. The constrains enforce groups of indices to be ordered 
+	* consecutively, before other groups.
+	* Returns: 
+	*	0 if the input was ok and the ordering is successful, 
+	*	1 if the matrix had unsorted columns and/or duplicate entries, but was otherwise valid, 
+	*	2 if input arguments order, col_offsets, row_indices are invalid, or if out_permutation is NULL,
+	*	3 if not enough memory can be allocated
+	* param "order": Number of rows = number of columns.
+	* param "row_indices": Array containing the row indices of the non zero entries of the upper triangle. Length = nnz.
+	* param "col_offsets": Array containing the indices into values (and row_indices) of the first entry of each column.
+	*		Length = order + 1. The last entry is col_offsets[order] = nnz.
+	* param "constraints:" Array of length = order with ordering constraints. Its values must be 0 <= constraints[i] < order.
+	*		If constraints = NULL, no constraints will be enforced.
+	*		Example: constraints = { 2, 0, 0, 0, 1 }. This means that indices 1, 2, 3 that have constraints[i] = 0, will be 
+	*		ordered before index 4 with constraints[4] = 1, which will be ordered before index 0 with constraints[0] = 2.
+	*		Indeed for a certain pattern, out_permutation = { 3, 2, 1, 4, 0 } (remember out_permutation is a new-to-old mapping).
+	* param "dense_threshold": A dense row/column in A + A^T can cause CAMD to spend significant time in ordering the matrix.  
+	*		If dense_threshold ≥ 0, rows/columns with more than dense_threshold * sqrt(order) entries are ignored during the 
+	*		ordering, and placed last in the output order. The default value of dense_threshold is 10. If negative, no
+	*		rows/columns are treated as dense. Rows/columns with 16 or fewer off-diagonal entries are never considered dense.
+	*		WARNING: allowing dense rows/columns may violate the constraints.
+	* param "aggressive_absorption": If non zero, aggressive absorption will be performed, which means that a prior element is 
+	*		absorbed into the current element if it is a subset of the current element, even if it is not adjacent to the 
+	*		current pivot element. This nearly always leads to a better ordering (because the approximate degrees are more 
+	*		accurate) and a lower execution time. There are cases where it can lead to a slightly worse ordering, however. 
+	*		The default value is nonzero. To turn it off, set aggressive_absorption to 0.
+	* param "out_permutation": Out parameter - buffer for the computed permutation vector. Length == order. This permutation
+	*		vector is new-to-old; it can be intepreted as: original index = out_permutation[i], reordered index = i.
+	* param "out_factor_nnz": Out parameter - upper bound on the number of non zero entries in L of a subsequent L*L^T 
+	*		factorization. Will be -1 if the ordering fails.
+	* param "out_moved_dense": Out parameter - the number of dense rows/columns of A + A^T that were removed from A prior to
+	*		ordering. These are placed last in the output order of out_permutation. Will be -1 if the ordering fails.
+	*		WARNING: if out_moved_dense > 0, it indicates that the constraints are violated!
+	*/
+	__declspec(dllexport) int util_reorder_camd(int order, int* row_indices, int* col_offsets, int* constraints,
+		int dense_threshold, int aggressive_absorption,	int* out_permutation, int* out_factor_nnz, int* out_moved_dense);
 
 	/*
 	* Adds a row and column to an LDL' factorization. Before updating the kth row and column of L must be equal to the kth
